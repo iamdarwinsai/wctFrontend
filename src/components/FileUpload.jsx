@@ -14,7 +14,6 @@ const FileUpload = () => {
 
   const navigate = useNavigate();
 
-
   const handleFileChange = (event) => {
     const files = Array.from(event.target.files);
     setSelectedFiles(files);
@@ -26,7 +25,6 @@ const FileUpload = () => {
 
   const handleOk = () => {
     navigate('/ActiveRides');
-
     //window.location.href = "/new-page"; // replace with your page route
   };
 
